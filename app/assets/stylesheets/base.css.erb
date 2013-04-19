@@ -3,11 +3,24 @@ body {
    padding-left: 0;
    padding-right: 0;
 }
+
 h1.heading.pull-center{
+  padding-top: 2%;
   font-family: 'Abril Fatface', cursive;
   color:cyan;
   text-shadow: 2px 1px black;
 }
+span.twitter img,span.facebook img,span.google img{
+  width: 25px;
+  height: 25px;
+}
+h1.heading{
+  padding-top: 2%;
+  padding-bottom: 7.5%;
+  font-family: 'Vollkorn', serif;
+  font-size: 56px;
+
+} 
 
 body {
 
@@ -32,6 +45,11 @@ body {
   font-family: 'Vollkorn', serif; font-size: 16px;
 
  }
+div.div-1.div-2{
+  background-image: url(<%= asset_path 'linedpaper.png' %>);
+  padding: 5%;
+  width: 100px;
+}
 
 div.thumbnail{
   padding: 9px;
@@ -81,7 +99,7 @@ div.thumbnail{
    position: absolute;
  }
  #absolute-wrapper div.div-2 {
-   width: 400px;
+   width: 216px;
    height: 380px;
    top: 150px;
    left: 2%;
